@@ -333,4 +333,33 @@ All of these are **unchecked exceptions** (subclasses of `RuntimeException`).
 🚀 **Conclusion:**
 Spring JDBC provides a **simpler**, **cleaner**, and **more reliable** approach to database access by addressing the key pain points of traditional JDBC.
 
+Here is your text converted into **Markdown (.md)** format:
 
+# How to work with SpringJdbc?
+
+In Java JDBC there are 3 ways of accessing the data from the database:
+
+1. **Statement**
+2. **PreparedStatement**
+3. **CallableStatement**
+
+Whereas in SpringJdbc there are multiple ways of accessing the data from the database:
+
+1. **JdbcTemplate** — (Acts similar to `Statement` in Java JDBC)
+2. **NamedParameterJdbcTemplate** — (Acts similar to `PreparedStatement` in Java JDBC)
+
+`JdbcTemplate` is the core object of SpringJdbc using which we can perform database operations.
+
+# What are all the things I need to do to access the data from a database and what Spring JDBC provides?
+
+1. **Declare the connection parameters**  
+2. **Load the driver and create the connection**  
+3. **Prepare the SQL query for accessing the data from the table**  
+4. Create `PreparedStatement`  
+5. **Supply parameters to SQL**  
+6. Substitute parameter values in `PreparedStatement`  
+7. Execute the `PreparedStatement`  
+8. Gather `ResultSet` and iterate  
+9. **Wrap the data into objects**  
+10. Close resources
+```
