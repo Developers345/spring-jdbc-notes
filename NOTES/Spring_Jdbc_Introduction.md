@@ -348,6 +348,15 @@ Whereas in SpringJdbc there are multiple ways of accessing the data from the dat
 
 `JdbcTemplate` is the core object of SpringJdbc using which we can perform database operations.
 
+# Pictorial Respresentation - 1
+
+<img width="1914" height="524" alt="Screenshot 2025-11-13 080201" src="https://github.com/user-attachments/assets/3ddfe609-9118-43eb-8ee1-0e9a4cfbc731" />
+
+# Pictorial Respresentation - 2
+
+<img width="1352" height="680" alt="Screenshot 2025-11-13 080321" src="https://github.com/user-attachments/assets/a8fc2e63-bbca-4ee5-857c-c801ef1f45b7" />
+
+
 # What are all the things I need to do to access the data from a database and what Spring JDBC provides?
 
 1. **Declare the connection parameters**  
