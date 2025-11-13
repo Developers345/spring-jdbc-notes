@@ -362,4 +362,43 @@ Whereas in SpringJdbc there are multiple ways of accessing the data from the dat
 8. Gather `ResultSet` and iterate  
 9. **Wrap the data into objects**  
 10. Close resources
-```
+
+# What are the SQL operations we perform on the database?
+
+- **DDL (Data Definition Language)**  
+  `create table`, `drop table`, `alter table`  
+  *Not applicable for Java applications*
+
+- **DML (Data Manipulation Language)**  
+  `insert`, `update`, `delete`
+
+- **DCL (Data Control Language)**  
+  `grant`, `revoke`  
+  *Not applicable for Java applications*
+
+- **DQL (Data Query Language)**  
+  `select`
+
+- **DTL (Data Transaction Language)**  
+  `commit`, `savepoint`, `rollback`  
+  *Not applicable for Java applications because Spring uses transaction management*
+
+---
+
+## DML
+
+- insert  
+- update  
+- delete  
+
+---
+
+## DQL (Possible outcomes for SELECT query)
+
+- **select**
+  - aggregate query (`count`, `sum`, `avg`, `min`, `max`)
+  - one column one row  
+  - one row of data  
+  - multiple rows  
+  - multiple tables multiple rows
+
