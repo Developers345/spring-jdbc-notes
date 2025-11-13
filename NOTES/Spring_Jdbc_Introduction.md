@@ -333,8 +333,6 @@ All of these are **unchecked exceptions** (subclasses of `RuntimeException`).
 🚀 **Conclusion:**
 Spring JDBC provides a **simpler**, **cleaner**, and **more reliable** approach to database access by addressing the key pain points of traditional JDBC.
 
-Here is your text converted into **Markdown (.md)** format:
-
 # How to work with SpringJdbc?
 
 In Java JDBC there are 3 ways of accessing the data from the database:
