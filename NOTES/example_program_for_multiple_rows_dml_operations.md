@@ -181,6 +181,3 @@ row updated: 1
  BikeBo{bikeNo=3, bikeName='Hero Honda', bikeColor='White', bikeModel='B3'},
  BikeBo{bikeNo=4, bikeName='Pluser', bikeColor='Green', bikeModel='B4'}]
 ```
-
-If you want this saved as a downloadable `.md` file, just tell me!
-```
