@@ -21,6 +21,9 @@ class JdbcTemplate {
             rs = pstmt.executeQuery();
 
             if (rs.next()) {
+              /*here jdbc template don't know how to convert object
+                JdbcTemplate uses the callback mechanism.
+              */ 
                 obj = rowMapper.mapRow(rs, 1);
             }
 
